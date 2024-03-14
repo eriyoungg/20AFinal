@@ -48,22 +48,22 @@ h2#help-h {
 h3.about-h3 {
   color:#68584b;
   font-size: 26px;
-  text-align: left;
-  margin-right:1em;
+  /* margin-right:em; */
   margin-bottom: 0%;
-  text-align: left;
+  text-align: center;
   margin-top: 4em;
 }
 
-h3.about-h3-left {
-  color:#68584b;
-  font-size: 26px;
+h3.about-h3-sub {
+  color:#ae9797;
+  font-size: 23px;
   text-align: left;
-  margin-right:1em;
-  margin-left: 3em;
+  margin-right:0.5em;
+  margin-left: 0.5em;
   margin-bottom: 0%;
-  text-align: left;
-  margin-top: 4em;
+  text-align: center;
+  margin-top: 0.25em;
+  text-shadow: 1.5px 1.5px #000000; 
 }
 
 h3#stats-h3 {
@@ -86,16 +86,16 @@ h3.help-h3 {
   margin-top: 4em;
 }
 
-h4 {
-  font-size: 25px;
+h4.about-h4 {
+  font-size: 27px;
   margin-top: 2.7em;
-  text-align: left;
+  text-align: center;
   color: #68584b;
 }
 
 h4.causes-h4 {
   font-size: 19px;
-  text-align: left;
+  text-align: center;
   color: #29231e;
   margin-left: 4em;
 
@@ -122,12 +122,13 @@ p.home {
 
 p.about-p {
   color: black;
-  padding-top: 2em;
-  margin-bottom: 1em; 
+  padding-top: 0.75em;
+  padding-bottom: 1em;
+  margin-bottom: 2em; 
   font-size: 19px;
   margin-left: 4em;
   margin-right: 4em;
-  text-align: left;
+  text-align: center;
   line-height: 170%;
 }
 
@@ -421,7 +422,15 @@ header#help {
   margin: 1%;
   align-items: center;
   justify-content: center;
-  margin-top: 1em;
+  margin-top: 11em;
+}
+
+.flex-item2 {
+  flex-basis: 100%;
+  margin: 1%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5em;
 }
 
 .flex-container-2a {
