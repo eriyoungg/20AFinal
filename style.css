@@ -52,18 +52,20 @@ h3.about-h3 {
   margin-bottom: 0%;
   text-align: center;
   margin-top: 4em;
+  text-shadow: 2px 2px #cdc1c1; 
+
 }
 
 h3.about-h3-sub {
-  color:#ae9797;
+  color:#68584b;
   font-size: 23px;
   text-align: left;
   margin-right:0.5em;
   margin-left: 0.5em;
   margin-bottom: 0%;
+  margin-top: 1 em;
   text-align: center;
-  margin-top: 0.25em;
-  text-shadow: 1.5px 1.5px #000000; 
+  margin-top: 2em;
 }
 
 h3#stats-h3 {
@@ -97,7 +99,9 @@ h4.causes-h4 {
   font-size: 19px;
   text-align: center;
   color: #29231e;
-  margin-left: 4em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  /* margin-left: 4em; */
 
 }
 
@@ -209,6 +213,10 @@ p.help-p2 {
 }
 
 /* STYLE IMAGES */
+
+img#on-mars {
+  margin-top: 25%;
+}
 
 img.home {
   max-width: 65%;
